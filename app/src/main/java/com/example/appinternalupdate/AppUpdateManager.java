@@ -22,11 +22,16 @@ public class AppUpdateManager {
     // 主流应用商店对应的包名
     private static final ArrayList<String> mainAppStorePackageName = new ArrayList<String>() {{
         add("com.tencent.android.qqdownloader");    // 应用宝
-        add("com.huawei.appmarket");                // 华为应用市场
+        add("com.huawei.appmarket");                // 华为应用市场（智汇云）
         add("com.xiaomi.market");                   // 小米应用商店
         add("com.bbk.appstore");                    // vivo 市场
         add("com.heytap.market");                   // oneplus 市场
         add("com.oneplus.market");                  // oneplus 市场
+        add("com.sec.android.app.samsungapps");     // 三星应用商店
+        add("com.lenovo.leos.appstore");            // 联想乐商店
+        add("com.meizu.mstore");                    // 魅族应用商店
+        add("com.smartisan.appstore");              // 锤子应用市场
+        add("com.aspire.mm");                       // 移动MM商城
         add("com.android.vending");                 // Google Play
         add("com.qihoo.appstore");                  // 360手机助手
         add("com.baidu.appsearch");                 // 百度手机助手
@@ -34,35 +39,12 @@ public class AppUpdateManager {
         add("com.taobao.appcenter");                // 淘宝手机助手
         add("com.hiapk.marketpho");                 // 安卓市场
         add("cn.goapk.market");                     // 安智市场
+        add("com.yingyonghui.market");              // 应用汇
+        add("com.sogou.androidtool");               // 搜狗应用中心
+        add("com.infinit.wostore.ui");              // 联通沃商店
+        add("com.gionee.aora.market");              // 金立易用汇
+        add("");// 阿里YunOS应用中心
     }};
-    /*
-    96	# 华为-智汇云
-277	# vivo
-276	# 联想乐商店
-157	# 三星应用商店
-119	# 小米官方市场
-203	# 魅族应用商店
-5	# 百度移动应用
-19	# 安智市场
-20	# 应用汇
-65	# 豌豆荚
-153	# 移动MM商城
-157	# 三星应用商店
-274	# 360应用市场
-287	# 搜狗应用中心
-370	# 联通沃商店线上
-398	# 金立易用汇
-937	# 阿里YunOS应用中心
-2048	# 锤子应用市场
-200101	# 搜索-百度搜索-百度搜索
-2001000110 # 小米资源位-banner
-2001000120 # 小米资源位-米盟信息流
-2001000130 # 小米资源位-米盟开屏
-2001000140 # 小米资源位-米盟横幅
-2001000150 # vivo资源位-信息流
-2001000160 # vivo资源位-联盟
-1026910005105 # 荣耀
-     */
 
     /**
      * 1.判断用户手机内是否安装应用市场

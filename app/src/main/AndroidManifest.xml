@@ -17,7 +17,15 @@
         <package android:name="com.taobao.appcenter" />
         <package android:name="com.hiapk.marketpho" />
         <package android:name="cn.goapk.market" />
+        <package android:name="com.sec.android.app.samsungapps" />
+        <package android:name="com.lenovo.leos.appstore" />
+        <package android:name="com.smartisan.appstore" />
+        <package android:name="com.yingyonghui.market" />
+        <package android:name="com.sogou.androidtool" />
+        <package android:name="com.infinit.wostore.ui" />
+        <package android:name="com.gionee.aora.market" />
     </queries>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
