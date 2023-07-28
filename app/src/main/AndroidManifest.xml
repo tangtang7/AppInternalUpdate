@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.appinternalupdate">
+    <queries>
+        <!--    升级target30，导致软件包可见性变更，获取常见应用市场 -->
+        <package android:name="com.android.vending" />
+        <package android:name="com.tencent.android.qqdownloader" />
+        <package android:name="com.huawei.appmarket" />
+        <package android:name="com.xiaomi.market" />
+        <package android:name="com.bbk.appstore" />
+        <package android:name="com.heytap.market" />
+        <package android:name="com.oneplus.market" />
+        <package android:name="com.qihoo.appstore" />
+        <package android:name="com.baidu.appsearch" />
+        <package android:name="com.wandoujia.phoenix2" />
+        <package android:name="com.taobao.appcenter" />
+        <package android:name="com.hiapk.marketpho" />
+        <package android:name="cn.goapk.market" />
+    </queries>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppInternalUpdate"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
